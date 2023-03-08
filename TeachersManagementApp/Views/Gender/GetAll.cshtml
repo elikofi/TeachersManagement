@@ -1,0 +1,33 @@
+﻿@model IEnumerable<TeachersManagementApp.Models.Domain.Gender>
+@{
+}
+
+<div class="container">
+    <a href="/Gender/Add" class="btn btn-outline-warning">Add new gender</a>
+</div>
+
+<div class="container pt-10">
+    <div>
+        <h2>Genders</h2>
+        <table class="table table-stripped table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.GenderName</td>
+                        <td>
+                            <a class="btn btn-outline-primary" href="/Gender/Update?id=@item.Id">Edit</a>
+                            <a class="btn btn-outline-danger" onclick="return window.confirm('Are you sure')" href="/Gender/Delete?id=@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

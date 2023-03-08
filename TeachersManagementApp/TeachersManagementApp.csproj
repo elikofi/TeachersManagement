@@ -10,8 +10,38 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Models\Domain\" />
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\Abstract\" />
+    <None Remove="Repositories\Implementation\" />
+    <None Remove="Views\Gender\" />
+    <None Remove="Views\Nationality\" />
+    <None Remove="Views\Subject\" />
+    <None Remove="Views\Role\" />
+    <None Remove="Views\Qualification\" />
+    <None Remove="Views\Teacher\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\Domain\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Abstract\" />
+    <Folder Include="Repositories\Implementation\" />
+    <Folder Include="Views\Gender\" />
+    <Folder Include="Views\Nationality\" />
+    <Folder Include="Views\Subject\" />
+    <Folder Include="Views\Role\" />
+    <Folder Include="Views\Qualification\" />
+    <Folder Include="Views\Teacher\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
   </ItemGroup>
 </Project>

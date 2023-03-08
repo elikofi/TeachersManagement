@@ -1,4 +1,43 @@
 ﻿<Properties StartupConfiguration="{00694828-BA62-4B65-9495-1827DF2D62C1}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TeachersManagementApp FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TeachersManagementApp/Repositories/Implementation/TeacherService.cs">
+    <Files>
+      <File FileName="TeachersManagementApp/Models/Domain/Teacher.cs" Line="45" Column="1" />
+      <File FileName="TeachersManagementApp/Controllers/TeacherController.cs" Line="112" Column="48" />
+      <File FileName="TeachersManagementApp/Repositories/Implementation/TeacherService.cs" Line="58" Column="1" />
+      <File FileName="TeachersManagementApp/Views/Teacher/Add.cshtml" />
+      <File FileName="TeachersManagementApp/Views/Teacher/GetAll.cshtml" />
+      <File FileName="TeachersManagementApp/Views/Teacher/Update.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TeachersManagementApp" expanded="True">
+            <Node name="TeachersManagementApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Domain" expanded="True" />
+              </Node>
+              <Node name="Repositories" expanded="True">
+                <Node name="Abstract" expanded="True" />
+                <Node name="Implementation" expanded="True">
+                  <Node name="TeacherService.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Subject" expanded="True" />
+                <Node name="Teacher" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TeachersManagementApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

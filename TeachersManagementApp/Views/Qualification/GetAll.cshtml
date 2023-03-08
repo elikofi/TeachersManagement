@@ -1,0 +1,33 @@
+﻿@model IEnumerable<TeachersManagementApp.Models.Domain.Qualification>
+@{
+}
+
+<div class="container">
+    <a href="/Qualification/Add" class="btn btn-outline-warning">Add new qualification</a>
+</div>
+
+<div class="container pt-10">
+    <div>
+        <h2>Qualifications</h2>
+        <table class="table table-stripped table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.QualificationName</td>
+                        <td>
+                            <a class="btn btn-outline-primary" href="/Qualification/Update?id=@item.Id">Edit</a>
+                            <a class="btn btn-outline-danger" onclick="return window.confirm('Are you sure')" href="/Qualification/Delete?id=@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

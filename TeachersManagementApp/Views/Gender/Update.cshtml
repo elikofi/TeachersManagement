@@ -1,0 +1,28 @@
+﻿@model TeachersManagementApp.Models.Domain.Gender
+@{
+}
+
+<div class="container pt-10">
+    <div>
+        <h2>Update Gender</h2>
+        <form asp-action="Update" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="GenderName">Gender Name:</label>
+                <input type="text" class="form-control" asp-for="GenderName" />
+                <span asp-validation-for="GenderName" class="text-danger"></span>
+            </div>
+
+            @if (TempData["msg"] != null)
+            {
+                <div class="form-group">
+                    @TempData["msg"]
+                </div>
+            }
+            <div class="form-group pt-3">
+                <button type="submit" class="btn btn-outline-success">Save</button>
+                <a href="/Gender/GetAll" class="btn btn-outline-info">List</a>
+            </div>
+        </form>
+    </div>
+</div>
