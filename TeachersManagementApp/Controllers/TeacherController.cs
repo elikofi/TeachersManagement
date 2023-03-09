@@ -109,7 +109,7 @@ namespace TeachersManagementApp.Controllers
         //Get all method
         public IActionResult GetAll()
         {
-            var data = teacherService.GetAll();//.OrderBy(data => data.Name).ToList();
+            var data = teacherService.GetAll().OrderBy(data => data.Name).ToList();
             return View(data);
         }
     }

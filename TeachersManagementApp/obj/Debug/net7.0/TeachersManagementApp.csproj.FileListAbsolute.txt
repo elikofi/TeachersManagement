@@ -40,3 +40,45 @@
 /Users/elijahamoako/Projects/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.pdb
 /Users/elijahamoako/Projects/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.genruntimeconfig.cache
 /Users/elijahamoako/Projects/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/ref/TeachersManagementApp.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/appsettings.Development.json
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/appsettings.json
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/TeachersManagementApp.staticwebassets.runtime.json
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/TeachersManagementApp
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/TeachersManagementApp.deps.json
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/TeachersManagementApp.runtimeconfig.json
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/TeachersManagementApp.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/TeachersManagementApp.pdb
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/Humanizer.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/MySqlConnector.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/bin/Debug/net7.0/System.CodeDom.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.csproj.AssemblyReference.cache
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.AssemblyInfoInputs.cache
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.AssemblyInfo.cs
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.csproj.CoreCompileInputs.cache
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.RazorAssemblyInfo.cache
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.RazorAssemblyInfo.cs
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/staticwebassets/msbuild.TeachersManagementApp.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/staticwebassets/msbuild.build.TeachersManagementApp.props
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TeachersManagementApp.props
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TeachersManagementApp.props
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/staticwebassets.build.json
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/staticwebassets.development.json
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/scopedcss/bundle/TeachersManagementApp.styles.css
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/scopedcss/projectbundle/TeachersManagementApp.bundle.scp.css
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.csproj.CopyComplete
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/refint/TeachersManagementApp.dll
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.pdb
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/TeachersManagementApp.genruntimeconfig.cache
+/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/Debug/net7.0/ref/TeachersManagementApp.dll

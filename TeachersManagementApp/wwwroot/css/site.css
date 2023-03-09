@@ -20,3 +20,13 @@ html {
 body {
   margin-bottom: 60px;
 }
+.name {
+    font-family: wheat, plato, "Curlz MT", cursive, "Comic Sans MS";
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: xx-large;
+}
+.nav-link {
+    color: black;
+    font-family: Roboto, Arial;
+}

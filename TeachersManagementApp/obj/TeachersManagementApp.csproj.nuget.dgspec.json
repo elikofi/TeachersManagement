@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elijahamoako/Projects/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj": {}
+    "/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj": {}
   },
   "projects": {
-    "/Users/elijahamoako/Projects/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj": {
+    "/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elijahamoako/Projects/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj",
+        "projectUniqueName": "/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj",
         "projectName": "TeachersManagementApp",
-        "projectPath": "/Users/elijahamoako/Projects/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj",
+        "projectPath": "/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj",
         "packagesPath": "/Users/elijahamoako/.nuget/packages/",
-        "outputPath": "/Users/elijahamoako/Projects/TeachersManagementApp/TeachersManagementApp/obj/",
+        "outputPath": "/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/elijahamoako/.nuget/NuGet/NuGet.Config"

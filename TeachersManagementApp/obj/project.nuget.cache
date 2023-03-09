@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "98S3weyhVL2AYwo1OFYeSom1TBGYiuJtR9xB9zjsJBMiVtoglymHYNgAU4XcTmwILruTWYEQkKcC26dnVO589A==",
+  "dgSpecHash": "ehkeq2w9QUxyw+CiqeKrq/lz4U7iqrd7v4oBihXNY/wKaesWH0W0ssuwLGK4s2jbxZGPvayfbwZ36wVsr1vqjg==",
   "success": true,
-  "projectFilePath": "/Users/elijahamoako/Projects/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj",
+  "projectFilePath": "/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/TeachersManagementApp.csproj",
   "expectedPackageFiles": [
     "/Users/elijahamoako/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/elijahamoako/.nuget/packages/microsoft.entityframeworkcore/7.0.3/microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
