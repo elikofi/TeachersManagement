@@ -97,6 +97,16 @@ namespace TeachersManagementApp.Repositories.Implementation
                 return false;
             }
         }
+
+        //added this method
+        //public Teacher List(string term="")
+        //{
+        //    var list = context.Teacher.ToList();
+        //    foreach (var teacher in list)
+        //    {
+        //        var 
+        //    }
+        //}
     }
 }
 

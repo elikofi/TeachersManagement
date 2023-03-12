@@ -14,6 +14,8 @@ namespace TeachersManagementApp.Repositories.Abstract
         Teacher FindById(int id);
 
         IEnumerable<Teacher> GetAll();
+
+        //Teacher List(string term=""); // added this
     }
 }
 
