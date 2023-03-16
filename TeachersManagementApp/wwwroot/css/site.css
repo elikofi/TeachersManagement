@@ -32,11 +32,13 @@ body {
 }
 .search-bar {
     width: 100%;
-    padding: 0 2%;
+    margin-left: 1px;
+    
 }
 
 .search-bar input[type="text"] {
-    padding: 0.7rem;
+    /*    padding: 0.7rem;*/
+    padding: 7px;
     border: 1px solid lightgray;
     border-radius: 0.25rem;
     font-size: 1rem;
@@ -46,7 +48,7 @@ body {
 .search-bar button {
     border-radius: 0.25rem;
     font-size: 1rem;
-    padding: 0.7rem 0.9rem;
+/*    padding: 0.7rem 0.9rem;*/
     border: none;
     background-color: rgb(192, 192, 192);
     color: black;

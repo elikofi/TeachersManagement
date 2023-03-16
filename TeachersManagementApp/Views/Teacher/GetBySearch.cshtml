@@ -1,0 +1,42 @@
+﻿@model IEnumerable<TeachersManagementApp.Models.Domain.Teacher>
+@{
+}
+
+
+<div class="container pt-10">
+    <div>
+        <h2>Teachers</h2>
+        <table class="table table-stripped table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Subject</th>
+                    <th>Nationality</th>
+                    <th>Gender</th>
+                    <th>Role</th>
+                    <th>Qualification</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Age</td>
+                        <td>@item.SubjectName</td>
+                        <td>@item.NationalityName</td>
+                        <td>@item.GenderName</td>
+                        <td>@item.RoleName</td>
+                        <td>@item.QualificationName</td>
+                        <td>
+                            <a class="btn btn-outline-primary" href="/Teacher/Update?id=@item.Id">Edit</a>
+                            <a class="btn btn-outline-danger" onclick="return window.confirm('Are you sure')" href="/Teacher/Delete?id=@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

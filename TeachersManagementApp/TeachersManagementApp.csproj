@@ -19,6 +19,7 @@
     <None Remove="Views\Role\" />
     <None Remove="Views\Qualification\" />
     <None Remove="Views\Teacher\" />
+    <None Remove="Views\SQuery\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\Domain\" />
@@ -31,6 +32,7 @@
     <Folder Include="Views\Role\" />
     <Folder Include="Views\Qualification\" />
     <Folder Include="Views\Teacher\" />
+    <Folder Include="Views\SQuery\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">

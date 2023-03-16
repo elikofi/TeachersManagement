@@ -5,6 +5,12 @@
 <div class="container pt-10">
     <div>
         <h2>Add Teacher</h2>
+        <section class="search-bar">
+            <form asp-action="GetBySearch" asp-controller="Teacher">
+                <input type="text" name="searchQuery" class="search" placeholder="Search here!">
+                <input type="submit" value="Find" class="btn btn-outline-primary" />
+            </form>
+        </section>
         <form asp-action="Add" method="post">
             <div class="form-group">
                 <label asp-for="Name">Name:</label>

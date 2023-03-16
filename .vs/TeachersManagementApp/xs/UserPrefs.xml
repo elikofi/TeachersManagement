@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{00694828-BA62-4B65-9495-1827DF2D62C1}|https">
-  <MonoDevelop.Ide.ItemProperties.TeachersManagementApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TeachersManagementApp/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TeachersManagementApp/Views/Teacher/Add.cshtml">
     <Files>
+      <File FileName="TeachersManagementApp/wwwroot/css/site.css" Line="35" Column="19" />
+      <File FileName="TeachersManagementApp/Repositories/Abstract/ITeacherService.cs" />
       <File FileName="TeachersManagementApp/Views/Shared/_Layout.cshtml" />
-      <File FileName="TeachersManagementApp/wwwroot/css/site.css" Line="30" Column="18" />
+      <File FileName="TeachersManagementApp/Repositories/Implementation/TeacherService.cs" />
+      <File FileName="TeachersManagementApp/Views/Teacher/GetAll.cshtml" Line="36" Column="25" />
+      <File FileName="TeachersManagementApp/Controllers/TeacherController.cs" NotebookId="1" />
+      <File FileName="TeachersManagementApp/Views/Teacher/Add.cshtml" Line="25" Column="19" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,20 +15,18 @@
           <Node name="TeachersManagementApp" expanded="True">
             <Node name="TeachersManagementApp" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Domain" expanded="True" />
-              </Node>
               <Node name="Repositories" expanded="True">
                 <Node name="Abstract" expanded="True" />
                 <Node name="Implementation" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Shared" expanded="True" />
+                <Node name="Teacher" expanded="True">
+                  <Node name="Add.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -36,6 +34,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TeachersManagementApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

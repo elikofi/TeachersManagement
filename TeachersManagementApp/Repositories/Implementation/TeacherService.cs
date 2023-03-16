@@ -98,15 +98,34 @@ namespace TeachersManagementApp.Repositories.Implementation
             }
         }
 
-        //added this method
-        //public Teacher List(string term="")
-        //{
-        //    var list = context.Teacher.ToList();
-        //    foreach (var teacher in list)
-        //    {
-        //        var 
-        //    }
-        //}
+        public IEnumerable<Teacher> GetBySearch()
+        {
+            var result = (from teacher in context.Teacher
+                        join subject in context.Subject
+                        on teacher.SubjectId equals subject.Id
+                        join nationality in context.Nationality on teacher.NationalityId equals nationality.Id
+                        join gender in context.Gender on teacher.GenderId equals gender.Id
+                        join role in context.Role on teacher.RoleId equals role.Id
+                        join qualification in context.Qualification on teacher.QualificationId equals qualification.Id
+                        select new Teacher
+                        {
+                            Id = teacher.Id,
+                            SubjectId = teacher.SubjectId,
+                            NationalityId = teacher.NationalityId,
+                            GenderId = teacher.GenderId,
+                            RoleId = teacher.RoleId,
+                            QualificationId = teacher.QualificationId,
+                            Name = teacher.Name,
+                            Age = teacher.Age,
+                            SubjectName = subject.SubjectName,
+                            NationalityName = nationality.NationalityName,
+                            GenderName = gender.GenderName,
+                            RoleName = role.RoleName,
+                            QualificationName = qualification.QualificationName
+                        }
+                        ).ToList();
+            return result;
+        }
     }
 }
 

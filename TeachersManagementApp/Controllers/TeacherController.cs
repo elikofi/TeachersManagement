@@ -112,6 +112,13 @@ namespace TeachersManagementApp.Controllers
             var data = teacherService.GetAll().OrderBy(data => data.Name).ToList();
             return View(data);
         }
+
+        [HttpPost]
+        public IActionResult GetBySearch(string searchQuery)
+        {
+            var result = teacherService.GetAll().Where(x => x.Name.ToLower().Contains(searchQuery.ToLower()));
+            return View(result);
+        }
     }
 }
 

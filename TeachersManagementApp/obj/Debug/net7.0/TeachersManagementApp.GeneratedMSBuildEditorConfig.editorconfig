@@ -100,6 +100,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9HZXRBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/Views/Teacher/GetBySearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9HZXRCeVNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/elijahamoako/Desktop/Portfolio/ASP.NET Core/TeachersManagementApp/TeachersManagementApp/Views/Teacher/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
