@@ -7,10 +7,11 @@ namespace TeachersManagementApp.Models.Domain
 {
 	public class Teacher
 	{
+        [Key]
 		public int Id { get; set; }
 
 		[Required]
-		public string Name { get; set; }
+		public string? Name { get; set; }
 
         [Required]
         public int Age { get; set; }
@@ -29,6 +30,10 @@ namespace TeachersManagementApp.Models.Domain
 
         [Required]
         public int QualificationId { get; set; }
+
+        [Required]
+        public DateOnly StartingDate { get; set; } //add time spent in the school model.
+
 
 
         [NotMapped]

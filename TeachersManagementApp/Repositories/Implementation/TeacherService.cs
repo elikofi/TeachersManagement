@@ -76,7 +76,8 @@ namespace TeachersManagementApp.Repositories.Implementation
                             NationalityName = nationality.NationalityName,
                             GenderName = gender.GenderName,
                             RoleName = role.RoleName,
-                            QualificationName = qualification.QualificationName
+                            QualificationName = qualification.QualificationName,
+                            StartingDate = teacher.StartingDate
                         }
                         ).ToList();
             return data;
@@ -121,7 +122,8 @@ namespace TeachersManagementApp.Repositories.Implementation
                             NationalityName = nationality.NationalityName,
                             GenderName = gender.GenderName,
                             RoleName = role.RoleName,
-                            QualificationName = qualification.QualificationName
+                            QualificationName = qualification.QualificationName,
+                            StartingDate = teacher.StartingDate
                         }
                         ).ToList();
             return result;

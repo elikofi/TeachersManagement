@@ -113,12 +113,19 @@ namespace TeachersManagementApp.Controllers
             return View(data);
         }
 
+        //Search query method
         [HttpPost]
         public IActionResult GetBySearch(string searchQuery)
         {
             var result = teacherService.GetAll().Where(x => x.Name.ToLower().Contains(searchQuery.ToLower()));
             return View(result);
         }
+
+        //[HttpPost]
+        //public IActionResult GetDateOnly()
+        //{
+            
+        //}
     }
 }
 

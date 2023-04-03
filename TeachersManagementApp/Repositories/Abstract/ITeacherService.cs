@@ -17,7 +17,8 @@ namespace TeachersManagementApp.Repositories.Abstract
 
         IEnumerable<Teacher> GetBySearch();
 
-        //Teacher List(string term=""); // added this
+        // have to add new things DateOnly GetDateOnly();
+
     }
 }
 

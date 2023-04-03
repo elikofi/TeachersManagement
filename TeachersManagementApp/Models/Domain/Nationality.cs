@@ -5,6 +5,7 @@ namespace TeachersManagementApp.Models.Domain
 {
 	public class Nationality
 	{
+		[Key]
 		public int Id { get; set; }
 
 		[Required]

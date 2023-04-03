@@ -5,6 +5,7 @@ namespace TeachersManagementApp.Models.Domain
 {
 	public class Qualification
 	{
+		[Key]
 		public int Id { get; set; }
 
 		[Required]

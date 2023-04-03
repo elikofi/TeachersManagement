@@ -16,6 +16,7 @@
                     <th>Gender</th>
                     <th>Role</th>
                     <th>Qualification</th>
+                    <th>Starting Date</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -30,6 +31,7 @@
                         <td>@item.GenderName</td>
                         <td>@item.RoleName</td>
                         <td>@item.QualificationName</td>
+                        <td>@item.StartingDate</td>
                         <td>
                             <a class="btn btn-outline-primary" href="/Teacher/Update?id=@item.Id">Edit</a>
                             <a class="btn btn-outline-danger" onclick="return window.confirm('Are you sure')" href="/Teacher/Delete?id=@item.Id">Delete</a>
