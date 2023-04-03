@@ -9,7 +9,7 @@ namespace TeachersManagementApp.Models.Domain
 		public int Id { get; set; }
 
 		[Required]
-		public string QualificationName { get; set; }
+		public string? QualificationName { get; set; }
 	}
 }
 

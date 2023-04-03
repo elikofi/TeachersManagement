@@ -9,6 +9,6 @@ namespace TeachersManagementApp.Models.Domain
 		public int Id { get; set; }
 
 		[Required]
-		public string NationalityName { get; set; }
+		public string? NationalityName { get; set; }
 	}
 }

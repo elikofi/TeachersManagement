@@ -23,7 +23,7 @@ namespace TeachersManagementApp.Repositories.Implementation
                 context.SaveChanges();
                 return true;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
@@ -40,7 +40,7 @@ namespace TeachersManagementApp.Repositories.Implementation
                 context.SaveChanges();
                 return true;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
@@ -93,7 +93,7 @@ namespace TeachersManagementApp.Repositories.Implementation
                 context.SaveChanges();
                 return true;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
